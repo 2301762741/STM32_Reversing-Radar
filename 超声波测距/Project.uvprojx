@@ -52,7 +52,7 @@
           <OutputName>Project</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
@@ -703,12 +703,12 @@
             <File>
               <FileName>System.h</FileName>
               <FileType>5</FileType>
-              <FilePath>D:\待学习任务包\嵌入式\STM32入门教程资料\程序源码\程序工程模板\System\System.h</FilePath>
+              <FilePath>.\System\System.h</FilePath>
             </File>
             <File>
               <FileName>GPint.c</FileName>
               <FileType>1</FileType>
-              <FilePath>D:\待学习任务包\嵌入式\STM32入门教程资料\程序源码\程序工程模板\System\GPint.c</FilePath>
+              <FilePath>.\System\GPint.c</FilePath>
             </File>
           </Files>
         </Group>

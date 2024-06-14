@@ -1,7 +1,7 @@
-.\objects\gpint.o: D:\待学习任务包\嵌入式\STM32入门教程资料\程序源码\程序工程模板\System\GPint.c
+.\objects\gpint.o: System\GPint.c
 .\objects\gpint.o: .\Start\stm32f10x.h
 .\objects\gpint.o: .\Start\core_cm3.h
-.\objects\gpint.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gpint.o: E:\STM32\Keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\gpint.o: .\Start\system_stm32f10x.h
 .\objects\gpint.o: .\User\stm32f10x_conf.h
 .\objects\gpint.o: .\Library\stm32f10x_adc.h
