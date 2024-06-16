@@ -16,13 +16,13 @@ char RxData[100];   //数据缓存
 int main(void)
 {
 	OLED_Init();
-	OLED_Clear();
-	OLED_ShowString(1,7,"OLED");
+	//OLED_Clear();
+	//OLED_ShowString(1,7,"OLED");
 
 	
 //	USEint();
-//	HCint();   
-//	USE_SendString("OK!");
+	HCint();   
+	USE_SendString("OK!");
 	
 	//MyI2C_Init();
 	//MySPI_Init();
@@ -33,9 +33,6 @@ int main(void)
 		
 	while (1)
 	{
-		//huxiLED();         //PWM呼吸灯波形输出
-		//OLED_ShowNum(2,1,IC_GetHZ(),numlen(IC_GetHZ()));  //ICpwd模电波形测频和测占空比
-		
 		//USE_SendByte(0x01);   //发送一个数据
 		//USE_SendPacket(zu,sizeof(zu)/sizeof(zu[0])); //发送数据包,以FF开头，FE结尾
 		//Delay_ms(500);
